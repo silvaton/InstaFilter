@@ -12,6 +12,7 @@
 		3C7415812A8A382A0067ED8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7415802A8A382A0067ED8A /* Assets.xcassets */; };
 		3C7415842A8A382A0067ED8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7415832A8A382A0067ED8A /* Preview Assets.xcassets */; };
 		3C74158B2A8A3A1A0067ED8A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C74158A2A8A3A1A0067ED8A /* ImagePicker.swift */; };
+		3C74158D2A8A3B600067ED8A /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C74158C2A8A3B600067ED8A /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3C7415802A8A382A0067ED8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C7415832A8A382A0067ED8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C74158A2A8A3A1A0067ED8A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3C74158C2A8A3B600067ED8A /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				3C74157C2A8A38290067ED8A /* InstaFilterApp.swift */,
 				3C74157E2A8A38290067ED8A /* ContentView.swift */,
 				3C74158A2A8A3A1A0067ED8A /* ImagePicker.swift */,
+				3C74158C2A8A3B600067ED8A /* ImageSaver.swift */,
 				3C7415802A8A382A0067ED8A /* Assets.xcassets */,
 				3C7415822A8A382A0067ED8A /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				3C74158B2A8A3A1A0067ED8A /* ImagePicker.swift in Sources */,
 				3C74157F2A8A38290067ED8A /* ContentView.swift in Sources */,
 				3C74157D2A8A38290067ED8A /* InstaFilterApp.swift in Sources */,
+				3C74158D2A8A3B600067ED8A /* ImageSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
