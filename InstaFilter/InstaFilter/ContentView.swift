@@ -21,6 +21,13 @@ struct ContentView: View {
     @State private var currentFilter: CIFilter = CIFilter.sepiaTone()
     let context = CIContext()
     
+    private var isSaveButtonEnabled: Bool {
+        if let image = image {
+            return false
+        }
+        return true
+    }
+    
     @State private var showingFilterSheet = false
     
     var body: some View {
@@ -56,6 +63,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Button("Save", action: save)
+                        .disabled(isSaveButtonEnabled)
                 }
             }
             .padding([.horizontal, .bottom])
